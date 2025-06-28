@@ -3,7 +3,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/Hieromon/AutoConnect)](https://github.com/Hieromon/AutoConnect/releases)
 [![Build Status](https://github.com/Hieromon/AutoConnect/actions/workflows/build.yml/badge.svg)](https://github.com/Hieromon/AutoConnect/actions/workflows/build.yml)
 [![arduino-library-badge](https://www.ardu-badge.com/badge/AutoConnect.svg?)](https://www.ardu-badge.com/AutoConnect)
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/hieromon/library/AutoConnect.svg?version=1.4.2)](https://registry.platformio.org/packages/libraries/hieromon/AutoConnect?version=1.4.2) 
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/hieromon/library/AutoConnect.svg?version=1.4.3)](https://registry.platformio.org/packages/libraries/hieromon/AutoConnect?version=1.4.3)
 [![License](https://img.shields.io/github/license/Hieromon/AutoConnect)](https://github.com/Hieromon/AutoConnect/blob/master/LICENSE)
 
 An Arduino library for ESP8266/ESP32 WLAN configuration at run time with web interface. 
@@ -102,6 +102,10 @@ Full documentation is available on https://Hieromon.github.io/AutoConnect, some 
 - [FAQ](https://hieromon.github.io/AutoConnect/faq.html).
 
 ## Change log
+
+### [1.4.3] Jun. 28, 2025
+- Added continuous integration builds for ESP32-S3 boards.
+- Updated dependencies to use ArduinoJson v6 and PageBuilder v1.6 or later.
 
 ### [1.4.2] Jan. 31, 2023
 - Supports whileConnecting exit called while waiting for WiFi connection. (Discussions [#553](https://github.com/Hieromon/AutoConnect/issues/553))
