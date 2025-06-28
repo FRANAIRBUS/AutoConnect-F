@@ -72,6 +72,8 @@ jobs:
             platform-name: esp8266:esp8266
           - fqbn: "esp32:esp32:esp32"
             platform-name: esp32:esp32
+          - fqbn: "esp32:esp32:esp32s3"
+            platform-name: esp32:esp32
 
         library:
           - name: ArduinoJsonV6
@@ -153,6 +155,8 @@ jobs:
           - fqbn: "esp8266:esp8266:generic"
             platform-name: esp8266:esp8266
           - fqbn: "esp32:esp32:esp32"
+            platform-name: esp32:esp32
+          - fqbn: "esp32:esp32:esp32s3"
             platform-name: esp32:esp32
 
         include:

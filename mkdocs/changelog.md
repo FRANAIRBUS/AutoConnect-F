@@ -1,3 +1,11 @@
+### [1.4.3] Jun. 28, 2025
+
+#### Enhancements
+
+- Added continuous integration builds for ESP32-S3 boards.
+- Updated dependency requirements to ArduinoJson v6 and PageBuilder v1.6 or later.
+
+---
 ### [1.4.2] Jan. 31, 2023
 
 #### Enhancements
